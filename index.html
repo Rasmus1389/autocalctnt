@@ -124,6 +124,15 @@
       color: #444;
     }
   </style>
+<link rel="manifest" href="manifest.json">
+
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('service-worker.js');
+}
+</script>
+
+  
 </head>
 
 <body>
@@ -367,11 +376,10 @@
 
 
 
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('service-worker.js');
-}
+
 </script>
 
 </body>
 
 </html>
+
