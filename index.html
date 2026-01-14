@@ -364,7 +364,14 @@
     msg.push(udmiText);
     out.innerHTML = msg.join('<br>');
   }
+
+
+
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('service-worker.js');
+}
 </script>
 
 </body>
+
 </html>
