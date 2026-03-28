@@ -1,6 +1,6 @@
 {
-  "name": "My Clinical Tool",
-  "short_name": "Tool",
+  "name": "AKS-TNTapp",
+  "short_name": "TNTapp",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#ffffff",
